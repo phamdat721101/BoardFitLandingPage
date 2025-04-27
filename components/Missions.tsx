@@ -1,8 +1,9 @@
-import { Download, DownloadIcon } from "lucide-react";
+'use client';
+import { DownloadIcon } from "lucide-react";
 
 const Missions = () => {
   const DownLoadApp = () => {
-    window.location.href = "https://apps.apple.com/us/app/boar-ai-fitness/id6446141950";
+    window.location.href = "https://docs.google.com/spreadsheets/d/1nIB5s1BuIxB4qOWmlzlmGq8TV7TpWtcnYxeVvnZuRQI/edit?usp=drive_link";
   };
 
   return (
@@ -20,7 +21,7 @@ const Missions = () => {
             </span>{" "}
             transform your workouts into an adventure.
           </p>
-          <button className="p-5 flex bg-white text-[#111214] font-semibold gap-4 rounded-3xl">
+          <button className="p-5 flex bg-white text-[#111214] font-semibold gap-4 rounded-3xl" onClick={DownLoadApp}>
             Download The App
             <DownloadIcon />
           </button>
