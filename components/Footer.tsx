@@ -1,7 +1,7 @@
 import Facebook from "@/assets/facebook";
 import Instagram from "@/assets/instagram";
 import LinkedIn from "@/assets/linkedIn";
-import { MailIcon, MoveRight, MoveRightIcon } from "lucide-react";
+import { MailIcon, MoveRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
